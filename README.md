@@ -11,6 +11,12 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
         <li>Démarrer le serveur</li>
       </ul>
     </li>
-    <li>Création de la base de données avec MongoDB</li>
+    <li>Création de la base de données avec MongoDB:
+        <ul>
+          <li>créer une BD et collection avec mongoDB</li>
+          <li>Accéder avec la base de données via compass</li>
+          <li>Tester notre Api avec les routes (get,post)</li>
+        </ul>
+    </li>
   </ol>
 </p>
