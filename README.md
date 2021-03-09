@@ -5,7 +5,7 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
 <p>Les tâches à réaliser sont :
   <ol>
     <li>Mise en place de l'environnement:
-      <ul><li>création du projet</li><li>installation des outils et dépendances(express,nodemon,cors,mongodb et doteenv)</li>
+      <ul><li>création du projet</li><li>installation des outils et dépendances(express,nodemon,cors,mongodb,dotenv et body-parser)</li>
         <li>création du serveur</li>
         <li>Créer une route de base('GET')</li>
         <li>Démarrer le serveur</li>
