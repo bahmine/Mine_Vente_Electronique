@@ -4,6 +4,6 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
 
 <p>Les tâches à réaliser sont :
   <ol>
-    <li>Installation de l'environnement (création du projet,les dépendences nécessaires et tous les outils)</li>
+    <li>Mise en place de l'environnement(création du projet,les dépendences nécessaires et tous les outils)</li>
   </ol>
 </p>
