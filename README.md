@@ -7,6 +7,8 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
     <li>Mise en place de l'environnement:
       <ul><li>création du projet</li><li>installation des outils et dépendances(express,nodemon,cors,mongodb et doteenv)</li>
         <li>création du serveur</li>
+        <li>Créer une route de base</li>
+        <li>Démarrer le serveur</li>
       </ul>
     </li>
   </ol>
