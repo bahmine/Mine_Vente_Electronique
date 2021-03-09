@@ -4,6 +4,10 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
 
 <p>Les tâches à réaliser sont :
   <ol>
-    <li>Mise en place de l'environnement(création du projet,les dépendences nécessaires et tous les outils)</li>
+    <li>Mise en place de l'environnement:
+      <ul><li>création du projet</li><li>installation des outils et dépendances(express,nodemon,cors,mongodb et doteenv)</li>
+        <li>création du serveur</li>
+      </ul>
+    </li>
   </ol>
 </p>
