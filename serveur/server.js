@@ -24,7 +24,7 @@ routes.use (express.json ());
 
 
 //connexion au serveur : en définition de l'url
-const url = "mongodb+srv://bahm:1996bAH30@cluster0.jbkx7.mongodb.net/MineElecVente?retryWrites=true&w=majority";
+const url = "mongodb+srv:/sabry:sabry123@cluster0.jbkx7.mongodb.net/MineElecVente?retryWrites=true&w=majority";
 /**On se connect à la base de données MineElecVente */
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
