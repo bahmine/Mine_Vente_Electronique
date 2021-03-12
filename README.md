@@ -15,8 +15,15 @@ Dans le cadre de mon apprentissage des technos js je me suis dit tiens refais ce
         <ul>
           <li>créer une BD et collection avec mongoDB</li>
           <li>Accéder à la base de données via compass</li>
-          <li>Tester notre Api avec les routes (get,post)</li>
+          <li>Tester notre Api avec les routes (get,post):
+                <ul>
+                    <li>la route get '/api/produits' : pour afficher l'ensemble des produits via find</li>
+                    <li>la route post:'/api/produits/ajout: pour ajouter des données via insertOne</li>
+                </ul>
+          </li>
         </ul>
+    </li>
+    <li>
     </li>
   </ol>
 </p>
