@@ -17,10 +17,10 @@ app.use ("/api",routes);
 routes.use (cors ());
 
 //bodye-parser
-routes.use (bodyParser.urlencoded({extended: true}));
-routes.use (bodyParser.json());
-//routes.use (express.json ());
-const jsonParser = bodyParser.json ();
+/*routes.use (bodyParser.urlencoded({extended: true}));
+routes.use (bodyParser.json());*/
+routes.use (express.json ());
+//const jsonParser = bodyParser.json ();
 
 //connexion au serveur : en définition de l'url
 const madb = 'MineElecVente';
@@ -36,7 +36,7 @@ client.connect((err) => {
     const produits = client.db(madb).collection("produits");
     
     //cette route get: affiche la liste des produits
-    routes.get("/produits",jsonParser,function (req, res) {
+    routes.get("/produits",function (req, res) {
         produits
         .find({})
         .toArray((err,resultat)=> {
@@ -46,7 +46,7 @@ client.connect((err) => {
         });
     });
     //cette route post pour rajouter un élément dans la base: pour cela on exécute insertOne ssur notre collection
-    routes.post ('/produits/ajout',jsonParser,(req,res)=> {
+    routes.post ('/produits/ajout',(req,res)=> {
         produits.insertOne (req.body,(err,result)=> {
             if (err) {
                 console.log (err);
